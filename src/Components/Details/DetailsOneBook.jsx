@@ -11,7 +11,6 @@ const DetailsOneBook = () => {
 
     const hundleBorrow = () =>{
         const oneBook = {bookname, authorname, image, category, quantity, description, ratting}
-        console.log(oneBook)
         // send data to database 
         fetch('https://book-haven-server.vercel.app/borrowBook',{
             method:'POST',
