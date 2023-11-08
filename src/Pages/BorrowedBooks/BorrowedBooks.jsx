@@ -4,7 +4,6 @@ import BorrowedBooksCard from "./BorrowedBooksCard";
 const BorrowedBooks = () => {
 
     const borrowBooks = useLoaderData();
-    console.log(borrowBooks);
 
 
     return (
