@@ -6,6 +6,7 @@ import ContactUs from "../../Components/ContactUs/ContactUs";
 
 const Home = () => {
     const books = useLoaderData();
+    console.log(books)
     return (
         <div>
             <div>
@@ -15,7 +16,7 @@ const Home = () => {
             <div className="grid lg:grid-cols-4 gap-10 container mx-auto px-10">
 
                 {
-                    books.map(book => <BookCard key={book._id} book={book} ></BookCard>)
+                    books?.map(book => <BookCard key={book._id} book={book} ></BookCard>)
                 }
 
             </div>

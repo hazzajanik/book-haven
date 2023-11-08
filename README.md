@@ -20,3 +20,7 @@ Categorized pages for various book genres and subgenres, aiding in book discover
 Borrow and return :
 Online shopping functionality, including options to add books to a cart and complete transactions.
 Secure payment processing and options for digital book formats (eBooks) and physical copies.# b8a11-client-side-hazzajanik
+
+
+client site link :
+https://aquamarine-heliotrope-eb2887.netlify.app/

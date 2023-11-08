@@ -64,7 +64,7 @@ const router = createBrowserRouter([
         },
         {
           path: '/read',
-          element: <ReadDetail></ReadDetail>,
+          element: <ReadDetail></ReadDetail>
         }
       ]
       
