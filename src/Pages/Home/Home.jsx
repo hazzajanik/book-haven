@@ -6,7 +6,6 @@ import ContactUs from "../../Components/ContactUs/ContactUs";
 
 const Home = () => {
     const books = useLoaderData();
-    console.log(books)
     return (
         <div>
             <div>

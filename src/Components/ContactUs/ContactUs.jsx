@@ -8,7 +8,7 @@ const ContactUs = () => {
                     <div className="flex flex-wrap -m-4 ">
                         <div className="p-4 lg:w-1/3">
                             <div className="h-full bg-rose-200 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                <h2 className="tracking-widest text-xs title-font font-medium  mb-1">CATEGORY</h2>
+                                <h2 className="tracking-widest text-xs title-font font-medium  mb-1">Thiller</h2>
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Raclette Blueberry Nextious Level</h1>
                                 <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                 <a className="text-rose-500 inline-flex items-center">Learn More
@@ -34,7 +34,7 @@ const ContactUs = () => {
                         </div>
                         <div className="p-4 lg:w-1/3">
                             <div className="h-full bg-rose-200 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                <h2 className="tracking-widest text-xs title-font font-medium  mb-1">CATEGORY</h2>
+                                <h2 className="tracking-widest text-xs title-font font-medium  mb-1">History</h2>
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Ennui Snackwave Thundercats</h1>
                                 <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                 <a className="text-rose-500 inline-flex items-center">Learn More
@@ -60,7 +60,7 @@ const ContactUs = () => {
                         </div>
                         <div className="p-4 lg:w-1/3">
                             <div className="h-full bg-rose-200 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                                <h2 className="tracking-widest text-xs title-font font-medium  mb-1">CATEGORY</h2>
+                                <h2 className="tracking-widest text-xs title-font font-medium  mb-1">Drama</h2>
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Selvage Poke Waistcoat Godard</h1>
                                 <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                 <a className="text-rose-500 inline-flex items-center">Learn More
