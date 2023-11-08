@@ -8,7 +8,6 @@ const UpdateBook = () => {
     console.log(updatedIdData);
     const { bookname, image, category, ratting, authorname } = updatedIdData;
     const { id } = useParams();
-    console.log(id)
 
     const hundleUpdateBook = (event) => {
         event.preventDefault();
