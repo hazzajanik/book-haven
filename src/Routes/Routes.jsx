@@ -11,6 +11,7 @@ import DetailsOneBook from "../Components/Details/DetailsOneBook";
 import UpdateBook from "../Components/UpdateBook/UpdateBook";
 import BorrowedBooks from "../Pages/BorrowedBooks/BorrowedBooks";
 import PrivateRoute from "./PrivateRoute";
+import ReadDetail from "../Components/ReadDetail/ReadDetail";
 
 
 const router = createBrowserRouter([
@@ -48,7 +49,7 @@ const router = createBrowserRouter([
         },
         {
           path: '/books/:id',
-          element: <DetailsOneBook></DetailsOneBook>,
+          element: <PrivateRoute><DetailsOneBook></DetailsOneBook></PrivateRoute>,
           loader: ({params})=> fetch(`https://book-haven-server.vercel.app/books/${params.id}`),
         },
         {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
           path: '/borrowbooks',
           element: <PrivateRoute><BorrowedBooks></BorrowedBooks></PrivateRoute>,
           loader: ()=> fetch('https://book-haven-server.vercel.app/borrowBook'),
+        },
+        {
+          path: '/read',
+          element: <ReadDetail></ReadDetail>,
         }
       ]
       
