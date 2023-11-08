@@ -3,7 +3,7 @@ import AllBookDetails from "./AllBookDetails";
 
 const AllBooks = () => {
     const booksInfo = useLoaderData();
-    console.log(booksInfo)
+    
     return (
         <div className="bg-rose-50">
             <h1 className="text-5xl font-semibold text-center pt-7 ">All Category Book</h1>
