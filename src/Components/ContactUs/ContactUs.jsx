@@ -2,7 +2,7 @@
 const ContactUs = () => {
     return (
         <div>
-            <h1 className="text-5xl font-semibold text-center pt-7 ">All Category Book</h1>
+            <h1 className="text-5xl font-semibold text-center pt-7 ">Blog</h1>
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-wrap -m-4 ">
